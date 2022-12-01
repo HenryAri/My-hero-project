@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background-color: #ccc;
+}
+
+.header {
+    background-color: #fff;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.logo-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo-nav img {
+    height: 40px;
+    margin-right: 20px;
+}
+
+.nav .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 30px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-family: verdana;
+    color: #3a3d46;
+}
+
+.cta-nav {
+    display: flex;
+}
+
+.cta a {
+    text-decoration: none;
+    font-family: verdana;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+.cta .login {
+    border: 1px solid purple;
+    color: purple;
+}
+
+.cta .free-trial {
+    background-color: purple;
+    border: 1px solid purple;
+    color: #fff;
+}
